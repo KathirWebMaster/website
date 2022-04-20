@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+:root {
+    --green-color: #009961;
+    --light-color: #ffffff;
+    --dark-color: #0a0e0f;
+    --grey-color: #4c5251;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Merriweather', serif !important;
+}
+.flex {
+    display: flex;
+    background-color: red;
+}
+
+.title {
+    color: var(--light-color);
+    font-size: 32px;
+    font-weight: 700;
+}
+.title-span {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--green-color);
+}
+
+.cs-nav {
+    background-color: var(--dark-color);
+}
+
+a {
+    color: var(--light-color);
+    text-align: center;
+}
+.cs-btn {
+    width: 160px;
+    color: var(--light-color);
+    font-weight: 400;
+    background-color: var(--green-color);
+}
+
+
+.drops{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+.drops select{
+    margin-inline: 1rem;
+}
+/*Form css */
+
+.cs-form {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(123, 123, 123, 0.8);
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 10;
+    padding-top: 25vh;
+}
+
+.exit-btn {
+    background-color: lightsalmon;
+    width: 32px;
+    height: 32px;
+    border: none;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+.form-cont {
+    position: relative;
+    background-color: var(--light-color);
+    /*box-shadow: 5px 10px 8px 10px #555555;*/
+    border-radius: 20px 20px;
+}
+.checkbox-div label {
+    margin-right: 21px;
+}
+.content-flex {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+.content-div {
+    width: 320px;
+    height: 400px;
+    padding: 16px;
+    margin-top: 0px;
+    word-wrap: break-word;
+    color: var(--light-color);
+
+}
+
+
+.content-elements{
+    padding:2px;
+    height: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.no-rec{
+    width: 100%;
+    min-height: 63vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.no-rec h2{
+    color: black;
+    letter-spacing: 3px;
+}
+#div_box{
+    color: black;
+    border: 2px solid block;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    font-size: 25px;
+}
+#div_satuts{
+    margin-left: 25%;
+    color: black;
+    font-size: 25px;
+}
+#div_created{
+    margin-left: 25%;
+    margin-top: 20px;
+    color: black;
+    font-size: 18px;
+}
+
+#delete{
+     position: absolute;
+     width: 10%;
+     margin-top: 52%;
+}
+#edit{
+     position: absolute;
+     margin-left: 80%;
+     margin-top: 52%;
+ 
+
+
+}
+
+#A{ 
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 200px;
+    width: 40%;
+    height: 65%;
+}
+#submit{
+    margin-left: 150px;
+    margin-top: -90px;
+    height: 40px;
+}
+#label{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -80px;
+}
+h4{
+    margin-left: 50px;
+    margin-top: -30px;
+    font-size: 20px;
+}
